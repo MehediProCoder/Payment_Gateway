@@ -489,19 +489,19 @@
                 <div class="product-item">
                     <div class="product-image">Coca-Cola<br>Classic</div>
                     <div class="product-details">
-                        <div class="product-name">Coca Cola</div>
-                        <div class="product-description">1.5 L • Refreshing Cola</div>
+                        <div class="product-name">Coca-Cola Classic</div>
+                        <!-- <div class="product-description">12 fl oz Can • Refreshing Cola</div> -->
                     </div>
-                    <div class="product-price">৳0.00</div>
+                    <div class="product-price">$1.50</div>
                 </div>
                 
                 <div class="summary-line">
                     <span class="label">Subtotal</span>
-                    <span class="value">৳0.00</span>
+                    <span class="value">$1.50</span>
                 </div>
                 <div class="summary-line">
-                    <span class="label">Sales Tax (0%)</span>
-                    <span class="value" id="tax-amount">৳0.00</span>
+                    <span class="label">Sales Tax (5%)</span>
+                    <span class="value" id="tax-amount">$0.08</span>
                 </div>
                 <div class="summary-line">
                     <span class="label">Shipping</span>
@@ -509,7 +509,7 @@
                 </div>
                 <div class="summary-line total-due">
                     <span class="label">Total due today</span>
-                    <span class="value" id="total-amount">$0.00</span>
+                    <span class="value" id="total-amount">$1.58</span>
                 </div>
             </div>
 
@@ -517,8 +517,7 @@
                 <div class="section-block">
                     <h2 class="contact">Contact information</h2>
                     <input type="email" id="email" placeholder="Enter your email address" 
-                    <!-- value="root.mehedihasan@gmail.com" -->
-                    >
+                    <!-- value="root.mehedihasan@gmail.com"> -->
                 </div>
 
                 <div class="section-block">
@@ -681,7 +680,7 @@
                     subscribeBtn.innerHTML = '🛒 Place Order Securely';
                     
                     // Success message
-                    alert(`🎉 Order Placed Successfully!\n\nOrder Summary:\n- Coca-Cola Classic: ৳0.00\n- Tax: $${tax.toFixed(2)}\n- Total: $${total.toFixed(2)}\n\nThank you for your purchase!`);
+                    alert(`🎉 Order Placed Successfully!\n\nOrder Summary:\n- Coca-Cola Classic: $1.50\n- Tax: $${tax.toFixed(2)}\n- Total: $${total.toFixed(2)}\n\nThank you for your purchase!`);
                     
                     // In a real application, you would send this data to a server here.
                 }, 2000);
